@@ -6,7 +6,7 @@ COPY ["package.json", "package-lock.json", "./"]
 
 RUN npm run prepare:server
 
-COPY ["client/package.json", "client/package-lock.json", "./client/"]
+COPY ["src/client/package.json", "src/client/package-lock.json", "./src/client/"]
 
 RUN npm run prepare:client
 

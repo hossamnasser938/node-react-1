@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js",
+    "start": "node src/server/index.js",
     "prepare:server": "npm install",
-    "prepare:client": "cd client && npm install",
-    "build:client": "cd client && npm run build"
+    "prepare:client": "cd src/client && npm install",
+    "build:client": "cd src/client && npm run build"
   },
   "keywords": [],
   "author": "",
