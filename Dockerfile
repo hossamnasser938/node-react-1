@@ -14,6 +14,6 @@ COPY . .
 
 RUN npm run build:client
 
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "start:node"]
 
 EXPOSE 3000
