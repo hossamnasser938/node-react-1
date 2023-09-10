@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY ["package.json", "package-lock.json", "./"]
 
-RUN npm run prepare:server
+RUN npm run prepare:node-server
 
 COPY ["src/client/package.json", "src/client/package-lock.json", "./src/client/"]
 

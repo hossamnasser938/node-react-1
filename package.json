@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:node": "node src/node-server/index.js",
-    "prepare:server": "npm install",
+    "start:nest": "node src/nest-server/build/main.js",
+    "prepare:node-server": "npm install",
+    "prepare:nest-server": "cd src/nest-server && npm install",
+    "build:nest-server": "cd src/nest-server && npm run build",
     "prepare:client": "cd src/client && npm install",
     "build:client": "cd src/client && npm run build"
   },
